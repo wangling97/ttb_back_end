@@ -10,6 +10,6 @@ class Home extends BaseController
 
     public function index()
     {
-        $this->failUnauthorized();
+        return $this->failUnauthorized();
     }
 }
